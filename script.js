@@ -1,4 +1,4 @@
-const BUSINESS_WHATSAPP_NUMBER = '503XXXXXXXX'; // Replace with your real number, country code included. Example: 50370000000
+const BUSINESS_WHATSAPP_NUMBER = '50379894334'; // Replace with your real number, country code included. Example: 50370000000
 
 const form = document.querySelector('#orderForm');
 const quantityInput = document.querySelector('#quantity');
