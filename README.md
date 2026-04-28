@@ -65,7 +65,6 @@ The order object is already structured in `script.js`:
   name,
   quantity,
   details,
-  total,
   createdAt,
   status
 }
