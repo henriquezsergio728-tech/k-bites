@@ -72,12 +72,4 @@ The order object is already structured in `script.js`:
 
 Later, replace the `localStorage` section with a `fetch('/api/orders', ...)` call and connect it to a real database.
 
-## Suggested Codeberg setup
 
-```bash
-git init
-git add .
-git commit -m "Initial K-Bites web scaffold"
-git remote add origin https://codeberg.org/YOUR_USER/k-bites-web.git
-git push -u origin main
-```
