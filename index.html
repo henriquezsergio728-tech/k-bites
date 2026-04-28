@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="K-Bites handmade Korean kimchi. Premium traditional recipe, naturally fermented, order through WhatsApp." />
+    <title>K-Bites | Premium Korean Kimchi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="K-Bites home">
+        <span class="brand-mark">K</span>
+        <span>K-Bites</span>
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#story">Tradition</a>
+        <a href="#product">Product</a>
+        <a href="#order">Order</a>
+        <a href="#socials">Socials</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Authentic Korean Flavor · Small Batch</p>
+          <h1>Premium handmade kimchi, fermented with tradition.</h1>
+          <p class="hero-text">K-Bites brings a bold, natural, irresistible Korean staple to your table: fresh cabbage kimchi made with a premium traditional recipe.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#order">Place an order</a>
+            <a class="btn btn-ghost" href="#story">Read the story</a>
+          </div>
+          <div class="hero-badges" aria-label="Product benefits">
+            <span>Fermented</span>
+            <span>Probiotic</span>
+            <span>No preservatives</span>
+          </div>
+        </div>
+        <div class="hero-card" aria-label="K-Bites brand preview">
+          <img src="assets/k-bites-brand-mark.png" alt="K-Bites kimchi mascot brand mark" />
+          <div class="price-chip">
+            <span>24 oz jar</span>
+            <strong>$11.90</strong>
+          </div>
+        </div>
+      </section>
+
+      <section id="story" class="story-section">
+        <div class="section-heading">
+          <p class="eyebrow">Ancestrality</p>
+          <h2>A living Korean tradition</h2>
+        </div>
+        <div class="story-panel">
+          <p>Kimchi is more than a side dish. It is a preservation method, a family ritual, and a symbol of Korean food culture passed down through generations.</p>
+          <p>Our premium recipe respects that heritage through natural fermentation, warm spices, careful ingredient selection, and patient small-batch preparation.</p>
+          <p>Every jar is crafted to honor the ancestral roots of kimchi while making it accessible, delicious, and memorable for modern tables.</p>
+        </div>
+      </section>
+
+      <section id="product" class="product-section section-grid reverse">
+        <div class="product-card">
+          <p class="eyebrow">Our star product</p>
+          <h2>Traditional cabbage kimchi</h2>
+          <ul class="feature-list">
+            <li>Premium handcrafted 24 oz jar.</li>
+            <li>Made with cabbage, gochugaru, garlic, ginger, scallion, carrot, and fish sauce.</li>
+            <li>Balanced spicy, tangy, umami-rich flavor.</li>
+            <li>Ideal with rice, noodles, eggs, ramen, fried rice, tacos, sandwiches, and grilled meats.</li>
+          </ul>
+        </div>
+        <div class="metrics-card">
+          <div>
+            <span>Net production cost</span>
+            <strong>$5.26</strong>
+          </div>
+          <div>
+            <span>Final price + IVA</span>
+            <strong>$11.90</strong>
+          </div>
+          <div>
+            <span>Estimated profit</span>
+            <strong>$6.63</strong>
+          </div>
+        </div>
+      </section>
+
+      <section id="order" class="order-section">
+        <div class="section-heading">
+          <p class="eyebrow">No login. No friction.</p>
+          <h2>Place your order through WhatsApp</h2>
+          <p>Fill the form and we generate a ready-to-send WhatsApp message.</p>
+        </div>
+
+        <form id="orderForm" class="order-form">
+          <label>
+            Name
+            <input id="name" name="name" type="text" placeholder="Your name" required />
+          </label>
+
+          <label>
+            Quantity
+            <input id="quantity" name="quantity" type="number" min="1" value="1" required />
+          </label>
+
+          <label>
+            Delivery or pickup details
+            <textarea id="details" name="details" rows="4" placeholder="Address, pickup point, preferred time, notes..." required></textarea>
+          </label>
+
+          <div class="order-summary" aria-live="polite">
+            <span>Total estimate</span>
+            <strong id="total">$11.90</strong>
+          </div>
+
+          <button class="btn btn-primary full" type="submit">Open WhatsApp order</button>
+          <p class="form-note">Replace the WhatsApp number in <code>script.js</code> with your real business number.</p>
+        </form>
+      </section>
+
+      <section id="socials" class="social-section">
+        <div class="section-heading">
+          <p class="eyebrow">Follow the batch</p>
+          <h2>Social-first food brand</h2>
+        </div>
+        <div class="social-grid">
+          <a href="https://www.tiktok.com/" target="_blank" rel="noreferrer">TikTok</a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a>
+          <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">Facebook</a>
+          <a href="#order">WhatsApp Orders</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>K-Bites · Delicious. Natural. Irresistible.</span>
+      <span>김 · 치</span>
+    </footer>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

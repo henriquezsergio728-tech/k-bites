@@ -1,0 +1,15 @@
+{
+  "name": "k-bites-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static landing page and order funnel for K-Bites.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite"
+  },
+  "devDependencies": {
+    "vite": "^8.0.10"
+  }
+}
